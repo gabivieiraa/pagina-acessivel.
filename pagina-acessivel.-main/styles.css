@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #000000;
+    --laranja-claro: #FF862A;
 }
 
 body {
@@ -19,18 +19,15 @@ section {
     padding-bottom: 5rem;
 }
 
-.nav-img{
-    width: 20%;
-}
 
 .nav-link {
-    color: #b90808;
-    font-weight: 800;
+    color: #CB6D43;
+    font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/violao.webp');
+    background-image: url('img/mc\ kevin.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -81,8 +78,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/violao.webp') top right no-repeat,
-        url('img/violao.webp') bottom left no-repeat;
+    background: url('img/flor.png') top right no-repeat,
+        url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -105,17 +102,17 @@ h2 {
 }
 
 #galeria {
-    background-color: #ffffff;
+    background-color: #FAF4F4;
 
 }
 
 .fundo-galeria {
-    background: url('') bottom right no-repeat;
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/fundoo.jpg');
+    background-image: url('img/4965007.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -134,12 +131,12 @@ h2 {
 }
 
 .formulario button {
-    background-color: #000000;
+    background-color: #CB6D43;
     border: none;
     font-weight: bold;
 }
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #ffffff;
+    background-color: #F1EDEF;
 }
