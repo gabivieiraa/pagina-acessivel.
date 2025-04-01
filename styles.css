@@ -143,3 +143,9 @@ h2 {
 .form-control {
     background-color: #ffffff;
 }
+.menu-acessibilidade{
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
